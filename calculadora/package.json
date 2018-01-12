@@ -1,0 +1,22 @@
+{
+  "name": "calculadora",
+  "version": "1.5.0",
+  "description": "calcularora virtual",
+  "main": "calculadora.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/demetrox14/calculadora.git"
+  },
+  "keywords": [
+    "calculadora"
+  ],
+  "author": "Nirvan Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/demetrox14/calculadora/issues"
+  },
+  "homepage": "https://github.com/demetrox14/calculadora#readme"
+}

@@ -1,0 +1,61 @@
+body {
+    background-color : rgb(0, 0, 0);
+    height: 10cm;
+    width: 50cm;  
+    margin: 0;  
+} 
+
+table {
+    animation-direction: 5s;
+    text-align: center;
+    background-color: aliceblue;
+    height: 10cm;
+    width: 20cm;
+}
+
+
+button{
+    color: rgb(154, 47, 253);
+    background-color: rgb(82, 0, 136);
+    border-bottom-color: black;
+    font-size: 28;
+    width: 5cm;
+    height: 4cm;
+}
+
+p{
+    color: aliceblue;
+    font: bold 20% monospace;
+    font-size: 280;
+    margin: 0;
+    line-height: 250px;
+}
+p[id='version']{
+    font-size: 20;
+    text-align:right;
+    line-height: 10px;
+}
+
+div{
+    width: 50cm;
+    margin: 0;
+}
+
+input{
+    margin-bottom: .1cm;
+    font-size: 30;
+
+}
+
+input[name='num1']{
+    width: 4cm;
+    height: 1cm;
+}
+input[name='num2']{
+    width: 4cm;
+    height: 1cm;
+}
+input[name='res']{
+    width: 6cm;
+    height: 1cm;
+}
