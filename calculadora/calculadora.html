@@ -2,15 +2,20 @@
     <title>Calculadora</title>
     <head>
         <div>
-            <p>C4lcul4d0r4</p><br><p id="version"> v2.0</p>
+            <p>C4lcul4d0r4</p><br>
         </div>
     </head>    
     <meta charset="utf-8"/> 
-    <LINK rel=StyleSheet href="estilos.css" type="text/css" media=screen><br>
+    <LINK rel=StyleSheet href="estilos.css" type="text/css" media=screen>
     <body>
         <script type="text/javascript" src="archivo.js"></script>
         <div>
-        <table border=".1px">
+        <table align="center">
+            <tr>
+                <td>
+                    <p id="marca">La calculadora de Nirvan</p>
+                </td>
+            </tr>
         <tr>
             <td>
                 <input type="number" name="num1" id="num1" placeholder="Número 1">
@@ -19,7 +24,14 @@
             </td>
         </tr>
         <tr>
-            <td>
+            <td id="limpiar">
+                <button name="limpiar">Limpiar Número 1</button>
+                <button name="limpiar">Limpiar Número 2</button>
+                <button name="limpiar">Limpiar todo</button>
+            </td>
+        </tr>
+        <tr>
+            <td id="botones">
                 <button id="suma">Suma</button>
                 <button id="resta">Resta</button>
                 <button id="multiplicacion">Multiplicación</button><br>
@@ -29,6 +41,7 @@
             </td>
         </tr>
     </table>
-    </div>
+    </div> 
+    <p id="version"> v2.0</p>
     </body>
 </html>

@@ -41,10 +41,9 @@ function division() {
 
 function potencia(){
     var numero1 = document.getElementById('num1').value;
-    var resultado 
-    resultado = parseFloat(numero1) * parseFloat(numero1)
+    var resultado
 
-    document.getElementById('res').value = resultado
+    alert('Proximamente estarán disponibles las potencias, esten atentos')
 }
 
     window.onload = function(){
