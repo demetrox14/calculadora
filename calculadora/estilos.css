@@ -28,6 +28,21 @@ td[id="botones"]{
 
 }
 
+div{
+    width: 50cm;
+    margin: 0;
+}
+
+table[id='calc']{
+    height: 15cm;
+    width: 20cm;
+}
+
+p[id="actu"]{
+    line-height: 30px;
+    font-size: 28;
+}
+
 button{
     color: rgb(154, 47, 253);
     background-color: rgb(82, 0, 136);
@@ -70,10 +85,6 @@ p[id='version']{
     line-height: 10px;
 }
 
-div{
-    width: 50cm;
-    margin: 0;
-}
 
 input{
     border: 0;

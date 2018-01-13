@@ -4,6 +4,8 @@ function suma() {
     var resultado
     resultado = parseFloat(numero1) + parseFloat(numero2)
     document.getElementById('res').value = resultado
+    document.getElementById('num1').value = resultado
+    document.getElementById('num2').value = ""
 }
 
 function resta() { 
@@ -12,6 +14,8 @@ function resta() {
     var resultado
     resultado = parseFloat(numero1) - parseFloat(numero2)
     document.getElementById('res').value = resultado
+    document.getElementById('num1').value = resultado
+    document.getElementById('num2').value = ""
 }
 
 function multiplicacion() { 
@@ -20,6 +24,8 @@ function multiplicacion() {
     var resultado
     resultado = parseFloat(numero1) * parseFloat(numero2)
     document.getElementById('res').value = resultado
+    document.getElementById('num1').value = resultado
+    document.getElementById('num2').value = ""
 }
 
 function division() { 
@@ -28,6 +34,8 @@ function division() {
     var resultado
     resultado = parseFloat(numero1) / parseFloat(numero2)
     document.getElementById('res').value = resultado
+    document.getElementById('num1').value = resultado
+    document.getElementById('num2').value = ""
 }
 
  function raiz() { 
@@ -37,6 +45,7 @@ function division() {
      raiz = Math.sqrt(numero1)
 
      document.getElementById('res').value = raiz
+     document.getElementById('num1').value = ""
 }
 
 function potencia(){
@@ -47,18 +56,18 @@ function potencia(){
 }
 
 function borrar_num1(){
-    document.getElementById('num1').value = "";
+    document.getElementById('num1').value = ""
 
 
 }
 function borrar_num2(){
-    document.getElementById('num2').value = "";
+    document.getElementById('num2').value = ""
 }
 
 function borrar_todo(){
-    document.getElementById('num1').value = "";
-    document.getElementById('num2').value = "";
-    document.getElementById('res').value = "";
+    document.getElementById('num1').value = ""
+    document.getElementById('num2').value = ""
+    document.getElementById('res').value = ""
 }
 
     window.onload = function(){
