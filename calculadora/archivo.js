@@ -4,7 +4,7 @@ function suma() {
     var resultado
     resultado = parseFloat(numero1) + parseFloat(numero2)
     document.getElementById('res').value = resultado
-    document.getElementById('num1').value = resultado
+    document.getElementById('num1').value = resultado.toFixed(3)
     document.getElementById('num2').value = ""
 }
 
@@ -14,7 +14,7 @@ function resta() {
     var resultado
     resultado = parseFloat(numero1) - parseFloat(numero2)
     document.getElementById('res').value = resultado
-    document.getElementById('num1').value = resultado
+    document.getElementById('num1').value = resultado.toFixed(3)
     document.getElementById('num2').value = ""
 }
 
@@ -24,7 +24,7 @@ function multiplicacion() {
     var resultado
     resultado = parseFloat(numero1) * parseFloat(numero2)
     document.getElementById('res').value = resultado
-    document.getElementById('num1').value = resultado
+    document.getElementById('num1').value = resultado.toFixed(3)
     document.getElementById('num2').value = ""
 }
 
@@ -33,8 +33,8 @@ function division() {
     var numero2 = document.getElementById('num2').value;
     var resultado
     resultado = parseFloat(numero1) / parseFloat(numero2)
-    document.getElementById('res').value = resultado
-    document.getElementById('num1').value = resultado
+    document.getElementById('res').value = resultado.toFixed(3)
+    document.getElementById('num1').value = resultado.toFixed(3)
     document.getElementById('num2').value = ""
 }
 
@@ -49,10 +49,18 @@ function division() {
 }
 
 function potencia(){
-    var numero1 = document.getElementById('num1').value;
-    var resultado
+    var numero1 = document.getElementById('num1').value
+    var numero2 = document.getElementById('num2').value
+    var resultado = numero1
+    var serie = 1
 
-    alert('Proximamente estarán disponibles las potencias, esten atentos')
+    resultado = 1
+    while(serie<numero2){
+        resultado = resultado * numero1
+        serie = serie + 1
+    }
+
+    document.getElementById('res').value = resultado
 }
 
 function borrar_num1(){
