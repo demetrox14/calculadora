@@ -28,6 +28,8 @@ td[id="botones"]{
 
 }
 
+
+
 div{
     width: 50cm;
     margin: 0;
@@ -41,6 +43,17 @@ table[id='calc']{
 p[id="actu"]{
     line-height: 30px;
     font-size: 28;
+}
+
+p[id="formulas"]{
+    line-height: 80px;
+    font-size: 40;
+}
+
+td[id="form"]{
+    background-color: rgb(183, 0, 255);
+    border-radius: 15px;
+    
 }
 
 button{
@@ -63,13 +76,11 @@ button[name="limpiar"]{
     height: 2cm;
 }
 
-p{
-    color: aliceblue;
-    font-family: babasneueblod;
-    font-size: 280;
-    margin: 0;
-    line-height: 250px;
+button[id="formulas"]{
+    width: 15cm;
+    height: 2cm;
 }
+
 
 p[id="marca"]{
     font-size: 40;
@@ -84,8 +95,6 @@ p[id='version']{
     text-align: right;
     line-height: 10px;
 }
-
-
 input{
     border: 0;
     text-align: center;
@@ -104,4 +113,84 @@ input[name='num2']{
 input[name='res']{
     width: 6cm;
     height: 2cm;
+}
+p{  
+    color: aliceblue;
+    font-family: babasneueblod;
+    font-size: 280;
+    margin: 0;
+    line-height: 250px;
+}
+button[id='volver']{
+    height: 1.5cm;
+    width: 2.5cm;
+    font-size: 30;
+}
+table[id='formulas']{
+    width: 32cm;
+    margin: auto;
+}
+p[id="tabla"]{
+    font-size: 35;
+    line-height: 30px;
+}
+p[id="cirA"]{
+    font-size: 35;
+    line-height: 30px;
+}
+p[id="titulo"]{
+    font-size: 50;
+    line-height: 1cm;
+}
+th[id="titulo"]{
+    height: 2cm;
+    background-color: rgb(97, 13, 175);
+    border-radius: 15px;
+}
+th[id="tablaA"]{
+    height: 2cm;
+    line-height: 20px;
+}
+th[id="circ"]{
+    background-color: blueviolet;
+    border-radius: 15px;
+    height: 5cm;
+    width: 5cm;
+}
+th[id="cuadro"]{
+    background-color: blueviolet;
+    border-radius: 15px;
+    height: 5cm;
+    width: 5cm;
+}
+th[id="resul"]{
+    height: 1cm;
+}
+th[id="c1"]{
+    height: 3cm;
+}
+th[id="igual"]{
+    background-color: rgb(97, 13, 175);
+    border-radius: 15px;
+    height: 2cm;
+}
+input[id="radio"]{
+    width: 2cm;
+    font-size: 10;
+}
+input[id="resu"]{
+    height: 1.5cm;
+    width: 18cm;
+}
+input[name="entrada"]{
+    font-size: 25;
+    height: .8cm;
+    width: 3cm;
+}
+button[id="igual"]{
+    color: rgb(109, 15, 15);
+    background-color: rgb(226, 24, 9);
+    border: 0;
+    height: 2cm;
+    width: 16cm;
 }
